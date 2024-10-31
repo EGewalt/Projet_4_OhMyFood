@@ -141,12 +141,14 @@ main .main__presentation section {
   max-width: 600px;
 }
 main .main__presentation section h1 {
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 20px;
+  padding-top: 25px;
 }
 main .main__presentation section p {
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  color: #353535;
 }
 @media screen and (min-width: 1024px) {
   main .main__presentation section {
@@ -172,6 +174,7 @@ main .button {
   line-height: 19px;
   color: #FFFFFF;
   background: linear-gradient(-185.33deg, #FF79DA -11.44%, #9356DC 123.93%);
+  margin-bottom: 30px;
   border-radius: 25px;
 }
 main .button:hover {
@@ -204,7 +207,7 @@ main .main-fonctionnement__cards {
   flex-direction: column;
   text-align: center;
   padding-top: 18px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
